@@ -45,7 +45,7 @@ let array=str.split('.').filter(element => {
 
 ### Experience
 ***
-   + Unfortunately, I have no experience in IT, but I have a great desire to work, constantly develop and learn something new.
+   + Unfortunately, I have no experience in IT, but I have a great desire to work, constantly develop and learn something new
    + CV in RS School
    + I work as a doctor in ER (emergensy department).
 
