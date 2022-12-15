@@ -5,7 +5,7 @@
 ![my photo](/img/photo_2022-12-10_15-24-42.jpg "my photo") 
 ### Contacts
 ***
-* Address: Zamostyanskaya st.3, Vinnytsya, Ukraine 
+* Address: Vinnytsya, Ukraine 
 * Phone: +380986629945
 * E-mail: annetart1994@gmail.com
 * LinkedIn: [Yana Dyachok](https://www.linkedin.com/in/yana-dyachok-06a384253/)
@@ -26,6 +26,7 @@ I started studying programming in 2021, I am a doctor by education, but I really
 * Editors:  VSCode, Visual Studio.
 ### Code examples
 ***
+```
 function isValidIP(str) {
                         let reg = /[A-z]/;
                         let array = str.split(".").filter((element) => {
@@ -45,6 +46,7 @@ function isValidIP(str) {
                       }
                       const adress = "0.229.017.134";
                       console.log(isValidIP(adress)); 
+ ```
 ### Education
 ***
 * National Pirogov Memorial Medical University(2011-2017)
@@ -59,6 +61,6 @@ function isValidIP(str) {
 
 ### English
 ***
-  * EPAM English test result: Pre-Intermediate( A2), but I always try to learn more
+  * EPAM English test result: Pre-Intermediate( A2)
   * Project 12 English test result: Intermediate( B1)
   
