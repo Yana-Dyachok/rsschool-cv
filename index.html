@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -71,7 +70,6 @@
                   I'm a doctor by education. I started studying programming in
                   2021, because I really like it, it’s very interesting, I love
                   the latest technologies and constant development.
-                  <br />
                   I want to succeed in my future profession, because it’s much
                   better to develop in the field that you like. In my free time,
                   I work out and watch movies
@@ -85,12 +83,12 @@
                       function isValidIP(str) {
                         let reg = /[A-z]/;
                         let array = str.split(".").filter((element) => {
-                          for (let index = 0; index < element.length; index++) {
+                          for (let index = 0; index = element.length+1; index++) {
                             if (element[0] === "0" && element.length >= 2) element = "\n";
                           }
                           return (
                             element >= 0 &&
-                            element <= 255 &&
+                            element != 256 &&
                             !(element === "") &&
                             !element.includes("\n") &&
                             !element.includes(" ") &&
@@ -133,7 +131,10 @@
                   <li class="item">
                     <a
                       class="link"
-                      href="https://github.com/Yana-Dyachok/rsschool-cv">CV</a> in RS School
+                      href="https://github.com/Yana-Dyachok/rsschool-cv"
+                      >CV</a
+                    >
+                    in RS School
                   </li>
                   <li class="item">
                     Unfortunately, I have no experience in IT, but I have a
@@ -148,58 +149,57 @@
               <!--Contacts  -->
               <section class="section">
                 <img
-                  class="user-photo"
-                  src="./assert/img/DSC_5194 (2).JPG"
+                  src="./assert/img/photo.JPG"
                   alt="my photo"
+                  class="user-photo"
                   width="270"
                   height="300">
                 <h2 class="section-title" id="contacts">Contacts</h2>
                 <ul class="contact-list">
                   <li class="item-contact">
                     <img
-                      class="icone"
                       src="./assert/img/house-add.svg"
                       alt="home-icone"
+                      class="icone"
                       width="20"
                       height="20">
                     Vinnytsya, Ukraine
                   </li>
                   <li class="item-contact">
                     <img
-                      class="icone"
                       src="./assert/img/telephone-inbound-fill.svg"
                       alt="phone-icone"
+                      class="icone"
                       width="20"
                       height="20">
                     +380986629945
                   </li>
                   <li class="item-contact">
                     <img
-                      class="icone"
                       src="./assert/img/envelope-fill.svg"
                       alt="email-icone"
+                      class="icone"
                       width="20"
                       height="20">
                     annetart1994@gmail.com
                   </li>
                   <li class="item-contact">
                     <img
-                      class="icone"
                       src="./assert/img/linkedin.svg"
                       alt="linkedin-icone"
+                      class="icone"
                       width="20"
                       height="20">
                     <a
                       class="link link-contact"
-                      href="(https://www.linkedin.com/in/yana-dyachok-06a384253/"
-                      class="contact-link" >Yana Dyachok
+                      href="(https://www.linkedin.com/in/yana-dyachok-06a384253/">Yana Dyachok
                     </a>
                   </li>
                   <li class="item-contact">
                     <img
-                      class="icone"
                       src="./assert/img/github.svg"
                       alt="github-icone"
+                      class="icone"
                       width="20"
                       height="20">
                     <a
@@ -264,7 +264,8 @@
                   </li>
                   <li class="item">
                     <span class="span-item"
-                      >Editors: VSCode, Visual Studio</span>
+                      >Editors: VSCode, Visual Studio</span
+                    >
                   </li>
                 </ul>
               </section>
@@ -273,10 +274,14 @@
                 <h2 class="section-title" id="english">English</h2>
                 <ul class="list-english aside-list">
                   <li class="item">
-                    <span class="span-item">EPAM English test result: Pre-Intermediate( A2)</span>
+                    <span class="span-item"
+                      >EPAM English test result: Pre-Intermediate( A2)</span
+                    >
                   </li>
                   <li class="item">
-                    <span class="span-item">Project 12 English test result: Intermediate( B1)</span>
+                    <span class="span-item"
+                      >Project 12 English test result: Intermediate( B1)</span
+                    >
                   </li>
                 </ul>
               </section>
@@ -290,9 +295,9 @@
           <ul class="list-footer">
             <li class="item-footer">
               <img
-                class="icone"
                 src="./assert/img/github.svg"
                 alt="github-icone"
+                class="icone"
                 width="20"
                 height="20">
               <a
@@ -304,9 +309,9 @@
             <li>
               <a href="https://rs.school/js/">
                 <img
-                  class="rs-school-img"
                   src="./assert/img/rs_school_js.svg"
                   alt="rs-school"
+                  class="rs-school-img"
                   width="100"
                   height="50">
               </a>
