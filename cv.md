@@ -26,19 +26,25 @@ I started studying programming in 2021, I am a doctor by education, but I really
 * Editors:  VSCode, Visual Studio.
 ### Code examples
 ***
-function isValidIP(str) {   
-   const reg=/[A-z]/  
-    let array=str.split('.').filter(element => {           for (let index = 0; index < element.length; index++)
-let array=str.split('.').filter(element => {      
-        for (let index = 0; index < element.length; index++) {       
-             if(element[0]==='0'&& element.length>=2) element='\n'           
-         }     
-     return ((element>=0 && element<=255 && !(element==='')&& !(element.includes('\n')) &&!(element.includes(' '))&&!(element.match(reg)))); 
-     })   
-  return array.length!==4?false:true 
-  }
-  const address = '0.229.017.134'   
-  console.log(isValidIP(address))
+function isValidIP(str) {
+                        let reg = /[A-z]/;
+                        let array = str.split(".").filter((element) => {
+                          for (let index = 0; index < element.length; index++) {
+                            if (element[0] === "0" && element.length >= 2) element = "\n";
+                          }
+                          return (
+                            element >= 0 &&
+                            element <= 255 &&
+                            !(element === "") &&
+                            !element.includes("\n") &&
+                            !element.includes(" ") &&
+                            !element.match(reg)
+                          );
+                        });
+                        return array.length !== 4 ? false : true;
+                      }
+                      const adress = "0.229.017.134";
+                      console.log(isValidIP(adress)); 
 ### Education
 ***
 * National Pirogov Memorial Medical University(2011-2017)
