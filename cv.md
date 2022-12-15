@@ -50,9 +50,9 @@ I'm a doctor by education. I started studying programming in 2021, because I rea
  ```
 ### Education
 ***
-* National Pirogov Memorial Medical University(2011-2017)
+* [National Pirogov Memorial Medical University(2011-2017)](https://www.vnmu.edu.ua/)
    + Faculty: Medical №1.
-* IT-Step Academy (2021-2022)
+* [IT-Step Academy (2021-2022)](https://vinnitsa.itstep.org/)
 
 ### Experience
 ***
