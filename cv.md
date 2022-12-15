@@ -1,7 +1,7 @@
 ## rsschool-cv
 ***
 # Yana Dyachok
-####Beginner Front End developer
+#### Beginner Front End developer
 ***
 ![my photo](/img/photo_2022-12-10_15-24-42.jpg "my photo") 
 ### Contacts
@@ -28,7 +28,7 @@ I'm a doctor by education. I started studying programming in 2021, because I rea
 ### Code examples
 ***
 ```
-function isValidIP(str) {
+              function isValidIP(str) {
                         let reg = /[A-z]/;
                         let array = str.split(".").filter((element) => {
                           for (let index = 0; index < element.length; index++) {
@@ -45,8 +45,8 @@ function isValidIP(str) {
                         });
                         return array.length !== 4 ? false : true;
                       }
-                      const adress = "0.229.017.134";
-                      console.log(isValidIP(adress)); 
+               const adress = "0.229.017.134";
+               console.log(isValidIP(adress)); 
  ```
 ### Education
 ***
