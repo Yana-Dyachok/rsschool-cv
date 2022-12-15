@@ -1,6 +1,7 @@
 ## rsschool-cv
 ***
 # Yana Dyachok
+####Beginner Front End developer
 ***
 ![my photo](/img/photo_2022-12-10_15-24-42.jpg "my photo") 
 ### Contacts
@@ -14,7 +15,7 @@
 * Discord: Yana Dyachok#6659
 * Telegram:[Yana](https://t.me/yana_ins)
 ### About myself:
-I started studying programming in 2021, I am a doctor by education, but I really like programming, it’s very interesting, I love the latest technologies and constant development. I want to succeed in my future profession, because it’s much better to develop in the field that you like. In my free time, I work out and watch movies
+I'm a doctor by education. I started studying programming in 2021, because I really like it, it’s very interesting, I love the latest technologies and constant development I want to succeed in my future profession, because it’s much better to develop in the field that you like. In my free time, I work out and watch movies
 ### Skills
 ***
 * HTML(basic knowledge)
