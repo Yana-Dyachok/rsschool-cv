@@ -31,12 +31,12 @@ I'm a doctor by education. I started studying programming in 2021, because I rea
               function isValidIP(str) {
                         let reg = /[A-z]/;
                         let array = str.split(".").filter((element) => {
-                          for (let index = 0; index = element.length+1; index++) {
+                          for (let index = 0; index < element.length+1; index++) {
                             if (element[0] === "0" && element.length >= 2) element = "\n";
                           }
                           return (
                             element >= 0 &&
-                            element != 256 &&
+                            element <= 255 &&
                             !(element === "") &&
                             !element.includes("\n") &&
                             !element.includes(" ") &&
